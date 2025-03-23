@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@500&display=swap');
+
+
+.background-nav{
+    background-color: #201E1E;
+    height: 100vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.navbar{
+    background:none;
+}
+.navbar-toggler i{
+    font-size: 25px;
+    color: white;
+}
+.navbar-brand img{
+width: 120px;
+}
+.logo-text{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.nav-item{
+    margin-left: 10px;
+    transition: 500ms;
+    margin: 5px;
+}
+.nav-item .active{
+    background-color: rgb(0, 79, 197);
+    border-radius: 20px;
+}
+.nav-item:hover{
+    background-color: rgb(0, 79, 197);
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: 500ms;
+    margin: 5px;
+}
+.nav-link{
+color: white;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-item-btn{
+    margin-left: 10px;
+}
+.nav-login-btn button{
+    background-color: rgb(0, 79, 197);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+.dil-btn button{
+    background: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 50px;
+}
+.dil-btn button i{
+    color: rgb(0, 79, 197);
+}
+.offcanvas{
+    background-color: #201E1E;
+}
+
+/*navbar bitiş*/
+
+
+
+/*section başladı*/
+.section-img{
+    position: relative;
+    top: 10vh;
+    }
+.section-img img{
+width: 100%;
+}
+.section-body{
+    position: relative;
+    top: 20vh;
+}
+.section-body .text{
+color: white;
+font-family: 'Raleway', sans-serif;
+font-size: 50px;
+font-weight: 600;
+}
+.section-body button{
+    background-color: rgb(0, 79, 197);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+
+
+/*TERCİH BAŞLADI*/
+
+
+.tercih-baslik{
+    color: rgb(0, 79, 197);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.cizgi{
+    position: absolute;
+    z-index: 0;
+    top: 80%;
+}
+
+.cizgi img{
+width: 100%;
+}
+
+.cizgi2{
+    position: absolute;
+    z-index: 0;
+    right: 0px;
+    top: 150%;
+    transform: rotate(180deg);
+    
+}
+.cizgi2 img{
+    width: 100%;
+    }
+
+.madde{
+    z-index: 1;
+    background-color: #201E1E;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+    transition: 1000ms;
+}
+.madde:hover{
+    background-color:rgb(0, 79, 197);
+    transition: 1000ms;
+}
+.madde img{
+    width: 100%;
+}
+.madde-text{
+    position: relative;
+    font-size: 15px;
+}
+
+/*TERCİH BİTTİ*/
+
+
+
+/*HİZMETLER BAŞLADI*/
+.cizgi3{
+    position: absolute;
+    z-index: 0;
+}
+.cizgi3 img{
+    width: 100%;
+    }
+.hizmetler{
+    z-index: 1;
+}
+.kart{
+    background-color: #201E1E;
+    padding: 0;
+    border-radius: 20px;
+    height: 40vh;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.kart-baslik{
+    width: 100%;
+    background-color: rgb(0, 79, 197);
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.kart img{
+width: 100%;
+padding: 20px;
+}
+
+
+
+/*HİZMETLER BİTTİ*/
+
+
+/*footer*/
+
+.footer{
+    height: 100%;
+    background-color: #201E1E;
+}
+.footer .logo-img img{
+    width: 120px;
+}
+.footer .logo-txt{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.footer .footer-baslik{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.footer .alt-baslik{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.footer .medya{
+    margin-right: 30px;
+}
+.footer .medya a{
+    color: white;
+}
+.footer .medya i{
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 15px;
+    transition: 500ms;
+}
+.footer .medya i:hover{
+    background-color: rgb(0, 79, 197);
+    transition: 500ms;
+}
+.copyright{
+    background-color: black;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.233);
+    font-family: 'Raleway', sans-serif;
+}
+/*footer bitti*/
+
+@media only screen and (max-width: 1200px) {
+    /*nav*/
+
+    .nav-item  .active{
+     padding: 10px;
+    }
+    .nav-item .nav-link{
+        padding: 10px;
+    }
+    /*nav bitiş*/
+    .section-img{
+        position: relative;
+        top: 10vh;
+        }
+    .section-body{
+        position: relative;
+        top: 20vh;
+    }
+    .section-body .text{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        }
+        .nav-item-btn{
+            margin-left: 0px;
+        }
+        .nav-login-btn button{
+            background-color: rgb(0, 79, 197);
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            padding: 10px;
+            border: none;
+            border-radius: 50px;
+            margin-top: 0px;
+        }
+        .dil-btn button{
+            background: none;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            padding: 10px;
+            border: none;
+            font-size: 15px;
+            border-radius: 50px;
+            margin-top: 5px;
+        }
+        .madde{
+            z-index: 1;
+            background-color: rgb(0, 79, 197);
+            font-size: 20px;
+            color: white;
+            border-radius: 50px;
+            font-family: 'Raleway', sans-serif;
+            margin-bottom: 50px;
+        }
+        .madde img{
+            width: 100%;
+        }
+        .tercih-baslik{
+            font-size: 30px;
+        }
+  }
